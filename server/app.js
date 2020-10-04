@@ -15,7 +15,7 @@ app.use(cookieParser());
 //best practices for security
 app.disable('etag');
 
-app.use('/', (req, res)=>res.json({	port: process.env.PORT }));
+app.use('/', (req, res)=>res.json({	port: process.env.PORT, msg: "GAME OVER\nI Like IT :)" }));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
