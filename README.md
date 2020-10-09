@@ -20,9 +20,8 @@ _Step 4_: (Only for linux users) After nginx installation, run `sudo chown -R $U
 _Step 5_: Start a certain number of servers present in server folder.<br>
 Check the *package.json* file inside server folder to available commands to start servers.
 
-_Step 6_: Come back to main folder and run `python3 menu.py`(For Linux) and `python3 menu-window.py` (For Windows).<br>
-Menu will open and you ask the value base on the input. This project will test loading capcaity.<br>
-Result will store in log folder.Sample output already present in the log. You can check it out anytime. 
+_Step 6_: Come back to main folder and run `python3 menu.py`(For Linux) and `python3 windows/menu.py` (For Windows).
+Menu will open and you ask the value base on the input. This project will test loading capcaity. Result will store in log folder.Sample output already present in the log. You can check it out anytime and load balancer use *Port 80*
 
 ## File Structure
 

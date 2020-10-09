@@ -2,31 +2,29 @@
 import os 
 
 # sets the text colour to green 
-os.system("tput setaf 2") 
+#os.system("tput setaf 2") 
 
 print("Launching Terminal User Interface") 
 
 # sets the text color to red 
-os.system("tput setaf 1") 
+#os.system("tput setaf 1") 
 
 print("\t\tWELCOME TO Terminal User Interface\t\t\t") 
 
 # sets the text color to white 
-os.system("tput setaf 7") 
+#os.system("tput setaf 7") 
 
 print("\t-------------------------------------------------") 
 print("Entering local device\nMade by Nikhil Jain\n") 
 
 def copy_nginx_algo_config(config_file):
-	os.system(("cp ./nginx/"+config_file+".conf /etc/nginx/sites-enabled/default"))
-	os.system("sudo nginx -t;")
-	os.system("sudo systemctl restart nginx;")
-	os.system("sudo systemctl enable nginx;")
+	os.system(("copy ../nginx/"+config_file+".conf ./nginx/conf/nginx.conf"))
+	os.system("start ./nginx/nginx.exe")
 	print("Processing......")
-	os.system("loadtest http://localhost:80/ -t 20 -c 100 --rps 1000 -n 200000 | cat > ./log/"+config_file+".txt")
+	os.system("loadtest http://localhost:80/ -t 20 -c 100 --rps 1000 -n 200000 > ../log/"+config_file+".txt")
 
 while True: 
-	os.system("clear")
+	os.system("cls")
 	print(""" 
 		1. Start IP Hash Algorithm 
 		2. Start Round Robin Algorithm

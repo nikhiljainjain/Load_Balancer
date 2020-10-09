@@ -2,13 +2,19 @@
   "name": "server",
   "version": "1.0.0",
   "private": true,
+  "desc": "serv* commands for linux users, wserv* commands for windows",
   "scripts": {
     "start": "node ./bin/www",
     "serv1": "PORT=3001 npm start",
     "serv2": "PORT=3002 npm start",
     "serv3": "PORT=3003 npm start",
     "serv4": "PORT=3004 npm start",
-    "serv5": "PORT=3005 npm start"
+    "serv5": "PORT=3005 npm start",
+    "wserv1": "set PORT=3001 && npm start",
+    "wserv2": "set PORT=3002 && npm start",
+    "wserv3": "set PORT=3003 && npm start",
+    "wserv4": "set PORT=3004 && npm start",
+    "wserv5": "set PORT=3005 && npm start"
   },
   "dependencies": {
     "child_process": "^1.0.2",

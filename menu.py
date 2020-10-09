@@ -19,9 +19,9 @@ print("Entering local device\nMade by Nikhil Jain\n")
 
 def copy_nginx_algo_config(config_file):
 	os.system(("cp ./nginx/"+config_file+".conf /etc/nginx/sites-enabled/default"))
-	os.system("sudo nginx -t;")
-	os.system("sudo systemctl restart nginx;")
-	os.system("sudo systemctl enable nginx;")
+	os.system("sudo nginx -t")
+	os.system("sudo systemctl restart nginx")
+	os.system("sudo systemctl enable nginx")
 	print("Processing......")
 	os.system("loadtest http://localhost:80/ -t 20 -c 100 --rps 1000 -n 200000 | cat > ./log/"+config_file+".txt")
 
