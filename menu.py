@@ -22,7 +22,7 @@ def copy_nginx_algo_config(config_file):
 	os.system("sudo nginx -t;")
 	os.system("sudo systemctl restart nginx;")
 	os.system("sudo systemctl enable nginx;")
-	print("Proecssing......")
+	print("Processing......")
 	os.system("loadtest http://localhost:80/ -t 20 -c 100 --rps 1000 -n 200000 | cat > ./log/"+config_file+".txt")
 
 while True: 
