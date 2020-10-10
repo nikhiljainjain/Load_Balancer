@@ -15,18 +15,19 @@ This package is use to test the load capcity of different server (here we are te
 
 _Step 3_: Install *nginx* in your system.
 
-_Step 4_: Start a certain number of servers present in server folder.<br>
+_Step 4_: (Only for linux users) After nginx installation, run `sudo chown -R $USER:$USER /etc/nginx` on terminal. This command will change the owner and make project smoothly run.
+
+_Step 5_: Start a certain number of servers present in server folder.<br>
 Check the *package.json* file inside server folder to available commands to start servers.
 
-_Step 5_: Come back to main folder and run `python3 menu.py`.<br>
+_Step 6_: Come back to main folder and run `python3 menu.py`(For Linux) and `python3 menu-window.py` (For Windows).<br>
 Menu will open and you ask the value base on the input. This project will test loading capcaity.<br>
 Result will store in log folder.Sample output already present in the log. You can check it out anytime. 
 
 ## File Structure
 
 <pre><font color="#3465A4"><b>Load_Balancer/</b></font>
-</pre>
-<pre>├── LICENSE
+├── LICENSE
 ├── <font color="#3465A4"><b>log (save the result of load balancing capcaity of algo by their name.)</b></font>
 │   ├── ip-hash.txt
 │   ├── least-conn.txt
