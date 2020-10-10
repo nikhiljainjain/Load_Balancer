@@ -1,0 +1,23 @@
+[Sat Oct 10 2020 06:04:58 GMT+0530 (India Standard Time)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sat Oct 10 2020 06:05:03 GMT+0530 (India Standard Time)] INFO Requests: 3617 (2%), requests per second: 710, mean latency: 269.9 ms
+[Sat Oct 10 2020 06:05:08 GMT+0530 (India Standard Time)] INFO Requests: 8282 (4%), requests per second: 953, mean latency: 281.7 ms
+[Sat Oct 10 2020 06:05:13 GMT+0530 (India Standard Time)] INFO Requests: 13527 (7%), requests per second: 1046, mean latency: 245.5 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO 
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Target URL:          http://localhost:80/
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Max requests:        200000
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Concurrency level:   100
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Agent:               none
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Requests per second: 1000
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO 
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Completed requests:  18939
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Total errors:        0
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Total time:          20.033335596 s
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Requests per second: 945
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Mean latency:        255.8 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO 
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO Percentage of the requests served within a certain time
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO   50%      248 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO   90%      332 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO   95%      365 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO   99%      417 ms
+[Sat Oct 10 2020 06:05:18 GMT+0530 (India Standard Time)] INFO  100%      521 ms (longest request)
